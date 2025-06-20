@@ -25,6 +25,7 @@ An Applicant Tracking System (ATS) backend API built with **Node.js**, **Express
 ```
 
 ats-api/
+|assets
 ├── controllers/         # API logic
 │   └── userController.js
 ├── models/              # Mongoose schemas
@@ -107,3 +108,20 @@ You can easily deploy it to:
 * 🔹 [Render](https://render.com/)
 * 🔹 [Railway](https://railway.app/)
 * 🔹 [Vercel (with frontend)](https://vercel.com/)
+
+## 📸 API Screenshots
+
+### 1. 🔌 Database Connection
+![ConnectDB](assets/ConnectDB.png)
+
+### 2. 🔐 JWT Token Generation
+![JWT](assets/JWT.png)
+
+### 3. 📝 User Registration
+![Register](assets/Register.png)
+
+### 4. 🔄 Update Endpoint
+![Update](assets/Update.png)
+
+### 5. ❌ User Not Found
+![UserNotFound](assets/UserNotFound.png)
